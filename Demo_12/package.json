@@ -1,0 +1,28 @@
+{
+  "name": "Demo_12",
+  "version": "1.0.0",
+  "description": "01. DEMO_12 自动监视打包 >> Webpack-dev-server 02. 需要另装该依赖： `npm install --save-dev webpack-dev-server`",
+  "main": "webpack.config.js",
+  "dependencies": {
+    "clean-webpack-plugin": "^0.1.19",
+    "css-loader": "^1.0.0",
+    "file-loader": "^1.1.11",
+    "html-webpack-plugin": "^3.2.0",
+    "inline-source-map": "^0.6.2",
+    "lodash": "^4.17.10",
+    "node-sass": "^4.9.3",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.22.1",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.1.5",
+    "webpack": "^4.16.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --open"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
