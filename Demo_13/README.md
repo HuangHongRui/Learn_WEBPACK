@@ -1,5 +1,6 @@
 01. 依赖 express webpack-dev-middleware 
 02. 通过 Node-Express 来起服务
+03. publicPath 设置路径会在服务器脚本用到，以确保文件资源能够在 服务器 下正确访问
 
 ```
 j
