@@ -38,3 +38,10 @@ DEMO_19
 - 防止重复：使用 SplitChunks 去重和分离 chunk。(会把共用的module抽出来另生成一共用文件)
 - 动态导入：通过模块的内联函数调用来分离代码。(①推荐方式：使用`import`语法 ②使用webpack特定的`require.ensure`。)
 
+---
+
+DEMO_20
+
+动态导入有点特别：
+01. 在代码中使用 import 导出，且返回结果为一个 promise
+02. 配合使用 async 最为完美
