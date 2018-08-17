@@ -1,7 +1,8 @@
 # DEMO_20 动态导入 (第三种方法)
 
-动态导入有点特别：
+import() 调用会在内部用到 promises。如果在旧有版本浏览器中使用 import()，记得使用 一个 polyfill 库（例如 es6-promise 或 promise-polyfill），来 shim Promise。
 
+动态导入有点特别：
 01. 在代码种使用 import 导出，且返回结果为一个 promise
 02. 配合使用 async 最为完美
 
