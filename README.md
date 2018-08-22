@@ -108,3 +108,8 @@ DEMO_24_模块标识符 (MODULE IDENTIFIERS)
 
 ---
 
+### SHIMMING
+
+01. 暴露全局变量
+02. 加载polyfills
+
